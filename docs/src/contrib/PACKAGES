@@ -46,3 +46,13 @@ Suggests: cipr, conos, rliger (>= 0.5.0), harmony, batchelor, SeuratData, Seurat
 License: GPL-3 | file LICENSE
 MD5sum: ab5aa28bc8dd927ce8e34ba10f51e1e0
 NeedsCompilation: no
+
+Package: zellkonverter
+Version: 1.13.1
+Imports: Matrix, basilisk, reticulate, SingleCellExperiment (>= 1.11.6),
+          SummarizedExperiment, DelayedArray, methods, S4Vectors, utils, cli
+Suggests: anndata, BiocFileCache, BiocStyle, covr, HDF5Array, knitr, pkgload, rmarkdown,
+          rhdf5 (>= 2.45.1), scRNAseq, spelling, testthat, withr
+License: MIT + file LICENSE
+MD5sum: e0a373a00415424a62fa1225c0d21b04
+NeedsCompilation: no
