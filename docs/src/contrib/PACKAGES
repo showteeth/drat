@@ -7,6 +7,14 @@ License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
 
+Package: GEOfastq
+Version: 0.99.9
+Imports: xml2, rvest, stringr, RCurl, doParallel, foreach, plyr
+Suggests: BiocCheck, roxygen2, knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 2da10f9952d3a372b1609ad75abdd8b1
+NeedsCompilation: no
+
 Package: sceasy
 Version: 0.0.7
 Depends: R (>= 3.5.1), reticulate
