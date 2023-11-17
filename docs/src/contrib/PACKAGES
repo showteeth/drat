@@ -34,3 +34,15 @@ Suggests: httr, knitr, rmarkdown, SeuratData
 License: GPL-3 | file LICENSE
 MD5sum: a30eba474edc3de13ec07931392e6b10
 NeedsCompilation: no
+
+Package: SeuratWrappers
+Version: 0.3.2
+Depends: R (>= 3.5.0)
+Imports: BiocManager, cowplot, ggplot2, igraph, Matrix, methods, remotes, rsvd, Seurat (>=
+          5.0.0), stats, utils, rlang
+Suggests: cipr, conos, rliger (>= 0.5.0), harmony, batchelor, SeuratData, SeuratDisk,
+          velocyto.R, schex, tximport, fishpond, monocle3, CoGAPS, glmpca, Nebulosa,
+          presto, flexmix, tricycle, Banksy
+License: GPL-3 | file LICENSE
+MD5sum: ab5aa28bc8dd927ce8e34ba10f51e1e0
+NeedsCompilation: no
