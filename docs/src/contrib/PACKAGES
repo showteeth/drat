@@ -6,3 +6,12 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: sceasy
+Version: 0.0.7
+Depends: R (>= 3.5.1), reticulate
+Suggests: Seurat (>= 3.0.1), SingleCellExperiment (>= 1.4.0), LoomExperiment (>= 1.1.5),
+          monocle3 (>= 0.2.0)
+License: GPL-3
+MD5sum: 370b764da522d35a0ccd0e4c78d82e11
+NeedsCompilation: no
